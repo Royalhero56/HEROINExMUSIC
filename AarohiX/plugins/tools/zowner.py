@@ -9,35 +9,6 @@ from AarohiX import app
 
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
-# Command
-PLAY_COMMAND = get_command("PLAY_COMMAND")
-GSTATS_COMMAND =get_command("GSTATS_COMMAND")
-PAUSE_COMMAND = get_command("PAUSE_COMMAND")
-REBOOT_COMMAND = get_command("REBOOT_COMMAND")
-STOP_COMMAND = get_command("STOP_COMMAND")
-SKIP_COMMAND = get_command("SKIP_COMMAND")
-ACTIVEVC_COMMAND = get_command("ACTIVEVC_COMMAND")
-ACTIVEVIDEO_COMMAND = get_command("ACTIVEVIDEO_COMMAND")
-RESTART_COMMAND = get_command("RESTART_COMMAND")
-SEEK_COMMAND = get_command("SEEK_COMMAND")
-RESUME_COMMAND = get_command("RESUME_COMMAND")
-UNGBAN_COMMAND = get_command("UNGBAN_COMMAND")
-GBANNED_COMMAND = get_command("GBANNED_COMMAND")
-SETTINGS_COMMAND = get_command("SETTINGS_COMMAND")
-RELOAD_COMMAND = get_command("RELOAD_COMMAND")
-GETVAR_COMMAND = get_command("GETVAR_COMMAND")
-UPDATE_COMMAND = get_command("UPDATE_COMMAND")
-SPEEDTEST_COMMAND = get_command("SPEEDTEST_COMMAND")
-ADDSUDO_COMMAND = get_command("ADDSUDO_COMMAND")
-DELSUDO_COMMAND = get_command("DELSUDO_COMMAND")
-GETLOG_COMMAND = get_command("GETLOG_COMMAND")
-BROADCAST_COMMAND = get_command("BROADCAST_COMMAND")
-AUTH_COMMAND = get_command("AUTH_COMMAND")
-UNAUTH_COMMAND = get_command("UNAUTH_COMMAND")
-BLACKLISTCHAT_COMMAND = get_command("BLACKLISTCHAT_COMMAND")
-UNBLOCK_COMMAND = get_command("UNBLOCK_COMMAND")
-BLOCK_COMMAND = get_command("BLOCK_COMMAND")
-GBAN_COMMAND = get_command("GBAN_COMMAND")
 
 @app.on_message(
     filters.command("owner")
