@@ -213,7 +213,7 @@ async def mention_all(client, message):
 
 
 
-@app.on_message(filters.command(["avctag"], prefixes=["/", ".", "@", "#"]))
+@app.on_message(filters.command(["vctag"], prefixes=["/", ".", "@", "#"]))
 async def mention_allvc(client, message):
     chat_id = message.chat.id
     if message.chat.type == ChatType.PRIVATE:
@@ -258,7 +258,7 @@ async def mention_allvc(client, message):
 
 
 
-@app.on_message(filters.command(["stopatagall", "cancelatagall", "offatagall", "atagallstop", "stopavctag", "stopatag", "atagalloff"]))
+@app.on_message(filters.command(["stopatagall", "cancelatagall", "offatagall", "atagallstop", "stopvctag", "stopatag", "atagalloff"]))
 async def cancel_spam(client, message):
     if not message.chat.id in spam_chats:
         return await message.reply("𝐂𝐮𝐫𝐫𝐞𝐧𝐭𝐥𝐲 𝐈'𝐦 𝐍𝐨𝐭 𝐓𝐚𝐠𝐠𝐢𝐧𝐠 𝐁𝐚𝐛𝐲.")
