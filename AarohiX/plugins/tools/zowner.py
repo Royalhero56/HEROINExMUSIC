@@ -8,7 +8,7 @@ import time
 from AarohiX import app
 
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
-from strings import get_command
+
 # Command
 PLAY_COMMAND = get_command("PLAY_COMMAND")
 GSTATS_COMMAND =get_command("GSTATS_COMMAND")
