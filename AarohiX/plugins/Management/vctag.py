@@ -23,12 +23,11 @@ TEXT = [ "**𝐎𝚈𝙴 𝐕𝙲 𝐀𝙰𝙾 𝐍𝙰 𝐏𝙻𝚂🥲**",
          "**𝐕𝙲 𝐉𝙾𝙸𝙽 𝐊𝚁𝙽𝙴 𝐌𝙴 𝐊𝚈𝙰 𝐉𝙰𝚃𝙰 𝐇 𝐓𝙷𝙾𝚁𝙰 𝐃𝙴𝚁 𝐊𝙰𝚁 𝐋𝙾 𝐍𝙰🙂**",
 
         ]
-
-@app.on_message(filters.command(["vctag", "vctagall"], prefixes=["/", ".", "@", "#"]))
+app.on_message(filters.command(["vctag", "vcall", "tagmember"], prefixes=["/", "@", "#"]))
 async def mentionall(client, message):
     chat_id = message.chat.id
-    if message.chat.type == "private":
-        return await message.reply("𝐓𝐡𝐢𝐬 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐎𝐧𝐥𝐲 𝐅𝐨𝐫 𝐆𝐫𝐨𝐮𝐩𝐬.")
+    if message.chat.type == ChatType.PRIVATE:
+        return await message.reply("This command can be used in groups and channels!")
 
     is_admin = False
     try:
@@ -36,10 +35,13 @@ async def mentionall(client, message):
     except UserNotParticipant:
         is_admin = False
     else:
-        if participant.status in ("administrator", "creator"):
+        if participant.status in (
+            ChatMemberStatus.ADMINISTRATOR,
+            ChatMemberStatus.OWNER
+        ):
             is_admin = True
     if not is_admin:
-        return await message.reply("𝐘𝐨𝐮 𝐀𝐫𝐞 𝐍𝐨𝐭 𝐀𝐝𝐦𝐢𝐧 𝐁𝐚𝐛𝐲, 𝐎𝐧𝐥𝐲 𝐀𝐝𝐦𝐢𝐧𝐬 𝐂𝐚𝐧 𝐓𝐚𝐠 𝐌𝐞𝐦𝐛𝐞𝐫𝐬. ")
+        return await message.reply("Only admin can use this command! . ")
 
     if message.reply_to_message and message.text:
         return await message.reply("/Vctag 𝐕𝐂 𝐀𝐀 𝐉𝐀𝐎 𝐒𝐀𝐁 👈 𝐓𝐲𝐩𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬 / 𝐑𝐞𝐩𝐥𝐲 𝐀𝐧𝐲 𝐌𝐞𝐬𝐬𝐚𝐠𝐞 𝐍𝐞𝐱𝐭 𝐓𝐢𝐦𝐞 𝐅𝐨𝐭 𝐓𝐚𝐠𝐠𝐢𝐧𝐠...")
@@ -53,7 +55,8 @@ async def mentionall(client, message):
             return await message.reply("/Vctag 𝐕𝐂 𝐀𝐀 𝐉𝐀𝐎 𝐒𝐀𝐁 👈 𝐓𝐲𝐩𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬 / 𝐑𝐞𝐩𝐥𝐲 𝐀𝐧𝐲 𝐌𝐞𝐬𝐬𝐚𝐠𝐞 𝐍𝐞𝐱𝐭 𝐓𝐢𝐦𝐞 𝐅𝐨𝐭 𝐓𝐚𝐠𝐠𝐢𝐧𝐠...")
     else:
         return await message.reply("/Vctag 𝐕𝐂 𝐀𝐀 𝐉𝐀𝐎 𝐒𝐀𝐁 👈 𝐓𝐲𝐩𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬 / 𝐑𝐞𝐩𝐥𝐲 𝐀𝐧𝐲 𝐌𝐞𝐬𝐬𝐚𝐠𝐞 𝐍𝐞𝐱𝐭 𝐓𝐢𝐦𝐞 𝐅𝐨𝐭 𝐓𝐚𝐠𝐠𝐢𝐧𝐠...")
-
+    if chat_id in spam_chats:
+        return await message.reply("𝐏𝐥𝐞𝐚𝐬𝐞 𝐀𝐭 𝐅𝐢𝐫𝐬𝐭 𝐒𝐭𝐨𝐩 𝐑𝐮𝐧𝐧𝐢𝐧𝐠 𝐏𝐫𝐨𝐜𝐞𝐬𝐬 ...")
     spam_chats.append(chat_id)
     usrnum = 0
     usrtxt = ""
@@ -79,7 +82,7 @@ async def mentionall(client, message):
     except:
         pass
 
-@app.on_message(filters.command(["cancelvctag", "stopvctag"]))
+@app.on_message(filters.command(["vccancel", "vcstop"]))
 async def cancel_spam(client, message):
     if not message.chat.id in spam_chats:
         return await message.reply("No active mention process is started by me.")
