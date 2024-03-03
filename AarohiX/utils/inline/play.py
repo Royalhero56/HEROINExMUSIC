@@ -20,10 +20,10 @@ def track_markup(_, videoid, user_id, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text="❤️‍🔥𝐎𝚆𝙽𝙴𝚁❤️‍🔥", url=f"tg://openmessage?user_id={5247304559}",
+                text="💝𝙾𝚆𝙽𝙴𝚁💝", url=f"tg://openmessage?user_id={OWNER_ID}",
             ),
             InlineKeyboardButton(
-                text="💖𝐉𝙰𝙰𝙽💖", url=f"https://t.me/Badnam_Mohabbat,
+                text="🥰𝙶𝚁𝙾𝚄𝙿🥰", url=SUPPORT_CHAT,
             )
         ],
         [
@@ -40,24 +40,24 @@ def stream_markup_timer(_, chat_id, played, dur):
     played_sec = time_to_seconds(played)
     duration_sec = time_to_seconds(dur)
     percentage = (played_sec / duration_sec) * 100
-    umm = math.floor(percentage)
-    if 0 < umm <= 10:
+    top = math.floor(percentage)
+    if 0 < top <= 10:
         bar = "♡╌╌╌╌╌╌╌╌"
-    elif 10 < umm < 20:
+    elif 10 < top < 20:
         bar = "╌♡╌╌╌╌╌╌╌"
-    elif 20 <= umm < 30:
+    elif 20 <= top < 30:
         bar = "╌╌♡╌╌╌╌╌╌"
-    elif 30 <= umm < 40:
+    elif 30 <= top < 40:
         bar = "╌╌╌♡╌╌╌╌╌"
-    elif 40 <= umm < 50:
+    elif 40 <= top < 50:
         bar = "╌╌╌╌♡╌╌╌╌"
-    elif 50 <= umm < 60:
+    elif 50 <= top < 60:
         bar = "╌╌╌╌╌♡╌╌╌"
-    elif 60 <= umm < 70:
+    elif 60 <= top < 70:
         bar = "╌╌╌╌╌╌♡╌╌"
-    elif 70 <= umm < 80:
+    elif 70 <= top < 80:
         bar = "╌╌╌╌╌╌╌♡╌"
-    elif 80 <= umm < 95:
+    elif 80 <= top < 95:
         bar = "╌╌╌╌╌╌╌╌♡╌"
     else:
         bar = "╌╌╌╌╌╌╌╌╌♡"
@@ -77,10 +77,10 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="❤️‍🔥𝐎𝚆𝙽𝙴𝚁❤️‍🔥", url=f"tg://openmessage?user_id={5247304559}",
+                text="💝𝙾𝚆𝙽𝙴𝚁💝", url=f"tg://openmessage?user_id={OWNER_ID}",
             ),
             InlineKeyboardButton(
-                text="💖𝐉𝙰𝙰𝙽💖", url=f"https://t.me/Badnam_Mohabbat,
+                text="🥰sᴜᴩᴩᴏʀᴛ🥰", url=SUPPORT_CHAT,
             )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -99,10 +99,10 @@ def stream_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="❤️‍🔥𝐎𝚆𝙽𝙴𝚁❤️‍🔥", url=f"tg://openmessage?user_id={5247304559}",
+                text="💝𝙾𝚆𝙽𝙴𝚁💝", url=f"tg://openmessage?user_id={OWNER_ID}",
             ),
             InlineKeyboardButton(
-                text="💖𝐉𝙰𝙰𝙽💖", url=f"https://t.me/Badnam_Mohabbat,
+                text="🥰sᴜᴩᴩᴏʀᴛ🥰", url=SUPPORT_CHAT,
             )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
