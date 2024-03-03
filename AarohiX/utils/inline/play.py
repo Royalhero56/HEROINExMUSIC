@@ -20,10 +20,10 @@ def track_markup(_, videoid, user_id, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text="💝𝙾𝚆𝙽𝙴𝚁💝", url=f"tg://openmessage?user_id={OWNER_ID}",
+                text="❤️‍🔥𝐎𝚆𝙽𝙴𝚁❤️‍🔥", url=f"tg://openmessage?user_id={OWNER_ID}",
             ),
             InlineKeyboardButton(
-                text="🥰𝙶𝚁𝙾𝚄𝙿🥰", url=SUPPORT_CHAT,
+                text="💝𝐉𝙰𝙰𝙽💝", url=SUPPORT_CHANNEL,
             )
         ],
         [
@@ -77,10 +77,10 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="💝𝙾𝚆𝙽𝙴𝚁💝", url=f"tg://openmessage?user_id={OWNER_ID}",
+                text="❤️‍🔥𝐎𝚆𝙽𝙴𝚁❤️‍🔥", url=f"tg://openmessage?user_id={OWNER_ID}",
             ),
             InlineKeyboardButton(
-                text="🥰sᴜᴩᴩᴏʀᴛ🥰", url=SUPPORT_CHAT,
+                text="💝𝐉𝙰𝙰𝙽💝", url=SUPPORT_CHANNEL,
             )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -99,10 +99,10 @@ def stream_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="💝𝙾𝚆𝙽𝙴𝚁💝", url=f"tg://openmessage?user_id={OWNER_ID}",
+                text="❤️‍🔥𝐎𝚆𝙽𝙴𝚁❤️‍🔥", url=f"tg://openmessage?user_id={OWNER_ID}",
             ),
             InlineKeyboardButton(
-                text="🥰sᴜᴩᴩᴏʀᴛ🥰", url=SUPPORT_CHAT,
+                text="💝𝐉𝙰𝙰𝙽💝", url=SUPPORT_CHANNEL,
             )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
