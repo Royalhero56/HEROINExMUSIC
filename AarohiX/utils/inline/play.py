@@ -1,6 +1,6 @@
 
 import math
-from config import SUPPORT_CHAT, OWNER_ID
+from config import SUPPORT_CHANNEL, OWNER_ID
 from pyrogram.types import InlineKeyboardButton
 
 from AarohiX.utils.formatters import time_to_seconds
