@@ -23,7 +23,8 @@ def track_markup(_, videoid, user_id, channel, fplay):
                 text="❤️‍🔥𝐎𝚆𝙽𝙴𝚁❤️‍🔥", url=f"tg://openmessage?user_id={5247304559}",
             ),
             InlineKeyboardButton(
-                text="💖𝐉𝙰𝙰𝙽💖", url=f"https://t.me/Badnam_Mohabbat,
+                text="💖𝐉𝙰𝙰𝙽💖",
+url=f"https://t.me/Badnam_Mohabbat,
             )
         ],
         [
