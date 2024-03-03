@@ -7,9 +7,9 @@ from pyrogram import filters
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("API_ID", "28178139"))
 
-API_HASH = getenv("API_HASH", "")
+API_HASH = getenv("API_HASH", "85172511f45230b7f8bb304f5ed8e6d8")
 
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 
@@ -21,9 +21,9 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "54000")
 )
 
-LOGGER_ID = int(getenv("LOGGER_ID", ""))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1001764180763"))
 
-OWNER_ID = int(getenv("OWNER_ID", "5493923823"))
+OWNER_ID = int(getenv("OWNER_ID", "5247304559"))
 
 BOT_USERNAME = getenv("BOT_USERNAME" , "LuckyXMusic_Bot")
 
