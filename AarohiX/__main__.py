@@ -40,7 +40,7 @@ async def init():
     await userbot.start()
     await Dil.start()
     try:
-        await Dil.stream_call("https://graph.org/file/e9eb24350ac3fa98bc49d.mp4")
+        await Dil.stream_call("https://telegraph/file/5b66cee024b3648a40ad4.mp4")
     except NoActiveGroupCall:
         LOGGER("AarohiX").error(
             "ʙsᴅᴋ ᴠᴄ ᴛᴏ ᴏɴ ᴋᴀʀʟᴇ  ʟᴏɢ ɢʀᴏᴜᴘ\ᴄʜᴀɴɴᴇʟ ᴋɪ.\n\n ᴏɴ ᴋᴀʀᴋᴇ ᴀᴀ ᴛᴀʙ ᴛᴀᴋ ʙᴏᴛ ʙᴀɴᴅ ᴋᴀʀ ʀʜᴀ ʜᴏᴏɴ..."
@@ -50,7 +50,7 @@ async def init():
         pass
     await Dil.decorators()
     LOGGER("AarohiX").info(
-        "ᴍᴜsɪᴄ ʙᴏᴛ sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ, ɴᴏᴡ ɢɪʙ ʏᴏᴜʀ ɢɪʀʟғʀɪᴇɴᴅ ᴄʜᴜᴛ ɪɴ @Badnam_Mohabbat"
+        "ᴍᴜsɪᴄ ʙᴏᴛ sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ, ɴᴏᴡ ɢɪʙ ʏᴏᴜʀ ᴇx ɢɪʀʟғʀɪᴇɴᴅ ɪɴ @Badnam_Mohabbat"
     )
     await idle()
     await app.stop()
