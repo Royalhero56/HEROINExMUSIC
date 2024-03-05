@@ -11,7 +11,7 @@ from config import BANNED_USERS, PING_IMG_URL
 
 
 # Define the repo and close buttons
-repo_button = InlineKeyboardButton("• ʀᴇᴘᴏ •", callback_data="gib_source")
+repo_button = InlineKeyboardButton("• 𝐎𝚆𝙽𝙴𝚁 •", callback_data="gib_source")
 close_button = InlineKeyboardButton("• ᴄʟᴏsᴇ •", callback_data="close")
 
 
@@ -39,7 +39,7 @@ async def ping_com(client, message: Message, _):
 @app.on_callback_query(filters.regex("gib_source"))
 async def gib_repo_callback(_, callback_query):
     await callback_query.edit_message_media(
-        media=InputMediaVideo("https://graph.org/file/706436d9b451288a787e4.mp4", has_spoiler=True),
+        media=InputMediaVideo("https://te.legra.ph/file/3cd32017658e67892b84d.mp4", has_spoiler=True),
         reply_markup=InlineKeyboardMarkup(
             [
                 [close_button]
