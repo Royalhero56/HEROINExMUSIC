@@ -23,7 +23,7 @@ def track_markup(_, videoid, user_id, channel, fplay):
                 text="💖𝐎𝚆𝙽𝙴𝚁💖", url=f"tg://openmessage?user_id={OWNER_ID}",
             ),
             InlineKeyboardButton(
-                text="💝𝐉𝙰𝙰𝙽💝", url=SUPPORT_CHANNEL,
+                text="💝𝐉𝙰𝙰𝙽💝", url=f"https://t.me/jaanu_42",
             )
         ],
         [
@@ -80,7 +80,7 @@ def stream_markup_timer(_, chat_id, played, dur):
                 text="💖𝐎𝚆𝙽𝙴𝚁💖", url=f"tg://openmessage?user_id={OWNER_ID}",
             ),
             InlineKeyboardButton(
-                text="💝𝐉𝙰𝙰𝙽💝", url=SUPPORT_CHANNEL,
+                text="💝𝐉𝙰𝙰𝙽💝", url=f"https://t.me/jaanu_42",
             )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -102,7 +102,7 @@ def stream_markup(_, chat_id):
                 text="💖𝐎𝚆𝙽𝙴𝚁💖", url=f"tg://openmessage?user_id={OWNER_ID}",
             ),
             InlineKeyboardButton(
-                text="💝𝐉𝙰𝙰𝙽💝", url=SUPPORT_CHANNEL,
+                text="💝𝐉𝙰𝙰𝙽💝", url=f"https://t.me/jaanu_42",
             )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
