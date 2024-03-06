@@ -44,7 +44,7 @@ async def tag_all_users(_, message):
         except Exception as e:
             print(e)
 
-@app.on_message(filters.command(["stopmention", "offutag", "cancelutag", "utagstop", "stopall", "cancelmention", "offmention", "mentionoff", "alloff", "cancelall", "allcancel" ], prefixes=["/", "@", "#"]) & admin_filter)
+@app.on_message(filters.command(["stopmention", "offutag", "cancelutag", "utagstop", "stopall", "cancelmention", "offmention", "mentionoff", "alloff", "cancelall", "allcancel"], prefixes=["/", "@", "#"]) & admin_filter)
 async def cancelcmd(_, message):
     chat_id = message.chat.id
     if chat_id in SPAM_CHATS:
