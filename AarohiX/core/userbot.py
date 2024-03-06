@@ -54,8 +54,8 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("THE_OP_BOY")
-                await self.one.join_chat("THE_TOP_BOY_OP")
+                await self.one.join_chat("rajabhaiya2u")
+                await self.one.join_chat("anikahindishayri")
             except:
                 pass
             assistants.append(1)
@@ -83,8 +83,8 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("THE_OP_BOY")
-                await self.two.join_chat("THE_TOP_BOY_OP")
+                await self.two.join_chat("ZiddiXBot")
+                await self.two.join_chat("Badnam_Mohabbat")
             except:
                 pass
             assistants.append(2)
@@ -141,8 +141,8 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("LOVE_FEELINGS_WILL1")
-                await self.four.join_chat("LOVE_FEELINGS_WILL1")
+                await self.four.join_chat("DP_AI_DP")
+                await self.four.join_chat("TQUIZ")
             except:
                 pass
             assistants.append(4)
@@ -170,8 +170,8 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("THE_OP_BOY")
-                await self.five.join_chat("THE_TOP_BOY_OP")
+                await self.five.join_chat("TOP_TG_BOTS")
+                await self.five.join_chat("TOP_TG_FRIENDS")
             except:
                 pass
             assistants.append(5)
