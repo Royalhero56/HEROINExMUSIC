@@ -7,13 +7,13 @@ from pyrogram import filters
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID", "28178139"))
+API_ID = int(getenv("API_ID", "24979812"))
 
-API_HASH = getenv("API_HASH", "85172511f45230b7f8bb304f5ed8e6d8")
+API_HASH = getenv("API_HASH", "b17f0957f25048200fd00998fd1595e8")
 
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Lucky:RajaOp@atlascluster.f7lck9c.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Hero430:Hero@hero.djda2kd.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 54000))
 
@@ -21,11 +21,11 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "54000")
 )
 
-LOGGER_ID = int(getenv("LOGGER_ID", "-1001764180763"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1001812811134"))
 
-OWNER_ID = int(getenv("OWNER_ID", "5247304559"))
+OWNER_ID = int(getenv("OWNER_ID", "6343729323"))
 
-BOT_USERNAME = getenv("BOT_USERNAME" , "LuckyXMusic_Bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "@royalhero613bot")
 
 COMMAND_HANDLER = getenv("COMMAND_HANDLER", "! / .").split()
 
@@ -42,8 +42,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Badnam_Mohabbat")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+WDNH4yTCWe5jOTI1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/anikahindishayri")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/rajabhaiya2u")
 
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "True")
@@ -86,10 +86,10 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/b6edf7d9c8905fc62657c.png"
+    "START_IMG_URL", "https://telegra.ph/file/b980a9c94a9ad07d68a5c.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/5899524dee3c817fa07bd.png"
+    "PING_IMG_URL", "https://graph.org/file/8e904425b527cb3045de2.jpg"
 )
 PLAYLIST_IMG_URL = "https://graph.org/file/faf885e67926960b853a3.jpg"
 STATS_IMG_URL = "https://telegra.ph/file/1d246bd7d1a05d9324a1b.png"
