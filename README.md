@@ -33,7 +33,7 @@
 
 ![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Royalhero56&repo=HEROxMUSIC&theme=flag-india)
 
-[![GIF](https://github.com/Royalhero56/HEROxMUSIC/blob/main/Royalhero56.gif)](https://github.com/Royalhero56)
+[![GIF](https://github.com/Royalhero56/HEROINExMUSIC/blob/main/Royalhero56.gif)](https://github.com/Royalhero56)
    [![HERO](https://github-stats-alpha.vercel.app/api?username=Royalhero56 "Iamcutehero")](https://github-stats-alpha.vercel.app/api?username=Royalhero56 "Iamcutehero")
 
 
@@ -54,8 +54,8 @@
 <h3> 𝗛𝗘𝗥𝗢𝗞𝗨 𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗕𝗨𝗧𝗧𝗢𝗡 </h3>
 </h3>
 
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Royalhero56/HEROxMUSIC"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-bringle?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Royalhero56/HEROxMUSIC"> <img src="https://graph.org/file/7758e15f135e166b8637d.jpg" width="520" height="198.45"/></a></p>
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Royalhero56/HEROINExMUSIC"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-bringle?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Royalhero56/HEROINExMUSIC"> <img src="https://graph.org/file/7758e15f135e166b8637d.jpg" width="520" height="198.45"/></a></p>
 ## 𝐇𝐨𝐰 𝐓𝐨 𝐃𝐞𝐩𝐥𝐨𝐲 𝐓𝐮𝐭𝐨𝐫𝐢𝐚𝐥 𝐕𝐢𝐝𝐞𝐨 𝐎𝐧 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 𝐒𝐞𝐚𝐫𝐜𝐡 📺
 
 - [![YouTube Video Views](https://img.shields.io/youtube/views/U8T5W3J1FNo?label=Tutorial+•+Heroku+•&style=social)](https://www.youtube.com)
@@ -68,7 +68,7 @@
     ─「 𝐃𝙴𝙿𝙻𝙾𝚈 𝐎𝙽 𝐋𝙾𝙲𝙰𝙻 𝐇𝙾𝚂𝚃/𝐕𝙿𝚂 」─
 </h3>
 
-- Get your [Necessary Variables](https://github.com/Royalhero56/HEROxMUSIC/blob/main/sample.env)
+- Get your [Necessary Variables](https://github.com/Royalhero56/HEROINExMUSIC/blob/main/sample.env)
 - Upgrade and Update by :
 `sudo apt-get update && sudo apt-get upgrade -y`
 - Install Ffmpeg by :
@@ -80,7 +80,7 @@
 - Install Node js by :
 `curl -fssL https://deb.nodesource.com/setup_18.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm`
 - Clone the repository by :
-`git clone https://github.com/Royalhero56/HEROxMUSIC && cd HEROxMUSIC`
+`git clone https://github.com/Royalhero56/HEROINExMUSIC && cd HEROINExMUSIC`
 - Install requirements by :
 `pip3 install -U -r requirements.txt`
 - Fill your variables in the env by :
