@@ -8,7 +8,7 @@ def start_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["S_B_1"], url=f"https://t.me/{app.username}?startgroup=true"
+                text=_["S_B_1"], url=f"https://t.me/itz_lucky_raja"
             ),
         ],
         [
@@ -29,19 +29,19 @@ def private_panel(_):
         [
             InlineKeyboardButton(
                 text=_["S_B_3"],
-                url=f"https://t.me/{app.username}?startgroup=true",
+                url=f"https://t.me/itz_lucky_Raja",
             )
         ],
         [
-            InlineKeyboardButton(text="💖𝐎𝚆𝙽𝙴𝚁💖", url=f"tg://openmessage?user_id={OWNER_ID}"),
-            InlineKeyboardButton(text="💝𝐉𝙰𝙰𝙽💝", url=f"https://t.me/jaanu_42"),
+            InlineKeyboardButton(text="𝐆𝚁𝙾𝚄𝙿✨", url=config.SUPPORT_CHAT),
+            InlineKeyboardButton(text="𝚂𝙷𝙰𝚈𝚁𝙸🥀", url=config.SUPPORT_CHANNEL),
         ],
         [
             InlineKeyboardButton(text="۞ 𝐅𝙴𝙰𝚃𝚄𝚁𝙴𝚂 ۞", callback_data="settings_back_helper")
         ],
         [
-                      InlineKeyboardButton(text="𝐆𝚁𝙾𝚄𝙿✨", url=config.SUPPORT_CHAT),
-            InlineKeyboardButton(text="𝚂𝙷𝙰𝚈𝚁𝙸🥀", url=config.SUPPORT_CHANNEL),
+InlineKeyboardButton(text="𝐒𝚃𝚄𝙳𝚈", url=f"https://t.me/+UQUsfzMdlIJjNjll"),
+            InlineKeyboardButton(text="𝟹ᴅ ᴀɪ ᴅᴘ", url=f"https://t.me/DP_AI_DP"),
         ],
     ]
 
