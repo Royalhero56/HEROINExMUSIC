@@ -8,7 +8,7 @@ def start_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["S_B_1"], url=f"https://t.me/itz_lucky_raja"
+                text=_["S_B_1"], url=f"https://t.me/{app.username}?startgroup=true"
             ),
         ],
         [
@@ -29,7 +29,7 @@ def private_panel(_):
         [
             InlineKeyboardButton(
                 text=_["S_B_3"],
-                url=f"https://t.me/itz_lucky_Raja",
+                url=f"https://t.me/{app.username}?startgroup=true",
             )
         ],
         [
@@ -40,8 +40,8 @@ def private_panel(_):
             InlineKeyboardButton(text="۞ 𝐅𝙴𝙰𝚃𝚄𝚁𝙴𝚂 ۞", callback_data="settings_back_helper")
         ],
         [
-InlineKeyboardButton(text="𝐒𝚃𝚄𝙳𝚈", url=f"https://t.me/+UQUsfzMdlIJjNjll"),
-            InlineKeyboardButton(text="𝟹ᴅ ᴀɪ ᴅᴘ", url=f"https://t.me/DP_AI_DP"),
+InlineKeyboardButton(text="💖𝐎𝚆𝙽𝙴𝚁💖", url=f"https://t.me/iamcutehero"),
+            InlineKeyboardButton(text="💝𝐉𝙰𝙰𝙽💝", url=f"https://t.me/jaanu_42"),
         ],
     ]
 
