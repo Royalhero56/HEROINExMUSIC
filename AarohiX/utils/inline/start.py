@@ -33,15 +33,15 @@ def private_panel(_):
             )
         ],
         [
-            InlineKeyboardButton(text="𝐆𝚁𝙾𝚄𝙿✨", url=config.SUPPORT_CHAT),
-            InlineKeyboardButton(text="𝚂𝙷𝙰𝚈𝚁𝙸🥀", url=config.SUPPORT_CHANNEL),
+            InlineKeyboardButton(text="💖𝐎𝚆𝙽𝙴𝚁💖", url=f"https://t.me/iamcutehero"),
+            InlineKeyboardButton(text="💝𝐉𝙰𝙰𝙽💝", url=f"https://t.me/jaanu_42"),
         ],
         [
             InlineKeyboardButton(text="۞ 𝐅𝙴𝙰𝚃𝚄𝚁𝙴𝚂 ۞", callback_data="settings_back_helper")
         ],
         [
-InlineKeyboardButton(text="💖𝐎𝚆𝙽𝙴𝚁💖", url=f"https://t.me/iamcutehero"),
-            InlineKeyboardButton(text="💝𝐉𝙰𝙰𝙽💝", url=f"https://t.me/jaanu_42"),
+InlineKeyboardButton(text="𝐆𝚁𝙾𝚄𝙿✨", url=config.SUPPORT_CHAT),
+            InlineKeyboardButton(text="𝚂𝙷𝙰𝚈𝚁𝙸🥀", url=config.SUPPORT_CHANNEL),
         ],
     ]
 
