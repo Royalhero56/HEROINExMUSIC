@@ -1,6 +1,6 @@
 
 <a href="https://www.gambaranimasi.org/cat-bintang-290.htm"><img src="https://www.gambaranimasi.org/data/media/280/animasi-bergerak-bintang-0157.gif" border="0" alt="animasi-bergerak-bintang-0157" /></a>
-#########💖𝐖𝙴𝙻𝙲𝙾𝙼𝙴 𝐓𝙾 𝐌𝚈 𝐖𝙾𝚁𝙻𝙳💖
+######### 💖𝐖𝙴𝙻𝙲𝙾𝙼𝙴 𝐓𝙾 𝐌𝚈 𝐖𝙾𝚁𝙻𝙳💖
 <a href="https://www.gambaranimasi.org/cat-bintang-290.htm"><img src="https://www.gambaranimasi.org/data/media/280/animasi-bergerak-bintang-0157.gif" border="0" alt="animasi-bergerak-bintang-0157" /></a>
 
 <p align="center">
