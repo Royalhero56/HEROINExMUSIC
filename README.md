@@ -12,9 +12,6 @@
 <p align="center">
 ✰ 𝐕𝐈𝐒𝐈𝐓𝐎𝐑𝐒 ✰
 
-<!--
-**Royalhero56/Royalhero56** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
 
 <p align="center">
     <b>ᴠɪsɪᴛᴏʀs</b><br>
