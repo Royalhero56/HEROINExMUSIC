@@ -12,15 +12,6 @@
 <p align="center">
 ✰ 𝐕𝐈𝐒𝐈𝐓𝐎𝐑𝐒 ✰
 
-
-<p align="center">
-    <b>ᴠɪsɪᴛᴏʀs</b><br>
- -->    <img align="middle" src="https://profile-counter.glitch.me/Royalhero56/count.svg" />
-</p>
-
-
-
-
 <h2 align="center">
 
 ★ 𝐇𝙴𝚁𝙾𝙺𝚄 + 𝐕𝙿𝚂 ★
